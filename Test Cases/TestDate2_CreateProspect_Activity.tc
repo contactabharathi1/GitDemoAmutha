@@ -4,5 +4,9 @@
    <name>TestDate2_CreateProspect_Activity</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
    <testCaseGuid>c1207321-5177-44f9-a7b8-6826ecca48b3</testCaseGuid>
+=======
+   <testCaseGuid>07df0450-2c62-4055-89be-0e51b7ef84f1</testCaseGuid>
+>>>>>>> dev
 </TestCaseEntity>
