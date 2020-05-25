@@ -19,8 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 currentDateAndTime = CustomKeywords.'wdx.p2.generateCurrentDateAndTime'().toString()
+
+WebUI.comment('dev code')
 
 todayDate = CustomKeywords.'wdx.p2.generateDateCustomFormat'(0, 'dd/MM/yyyy').toString()
 
@@ -53,10 +57,12 @@ CustomKeywords.'wdx.p2.loginToPortal2'(GlobalVariable.loginPage_name1, GlobalVar
 
 WebUI.delay(10)
 
+WebUI.delay(10)
+
 'Navigating to Relationship Manager'
 WebUI.callTestCase(findTestCase('CA/helpers/h_navigateToRelationshipManager'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(100)
+WebUI.delay(300)
 
 not_run: WebUI.switchToFrame(findTestObject('P2Core/iFrames/Core/Dashboards/iframe_MainFrame_PrivateBanker'), 30)
 
