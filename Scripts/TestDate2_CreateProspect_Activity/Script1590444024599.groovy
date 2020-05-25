@@ -56,7 +56,7 @@ WebUI.delay(10)
 'Navigating to Relationship Manager'
 WebUI.callTestCase(findTestCase('CA/helpers/h_navigateToRelationshipManager'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(7)
+WebUI.delay(100)
 
 not_run: WebUI.switchToFrame(findTestObject('P2Core/iFrames/Core/Dashboards/iframe_MainFrame_PrivateBanker'), 30)
 
