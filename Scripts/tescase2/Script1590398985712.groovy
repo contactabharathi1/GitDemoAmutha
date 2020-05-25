@@ -17,3 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
+WebUI.delay(2)
+
+WebUI.comment('Added a line in testcase1')
+
