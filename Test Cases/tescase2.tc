@@ -3,6 +3,6 @@
    <description></description>
    <name>tescase2</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Added a line in testcase1</comment>
    <testCaseGuid>0af46ae4-c0c2-41c9-a049-9e9089036536</testCaseGuid>
 </TestCaseEntity>
